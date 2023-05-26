@@ -1,0 +1,17 @@
+[package]
+name = "slurmrestapi"
+version = "0.0.37"
+authors = ["sales@schedmd.com"]
+description = "API to access and control Slurm."
+license = "Apache 2.0"
+edition = "2018"
+
+[dependencies]
+serde = "^1.0"
+serde_derive = "^1.0"
+serde_json = "^1.0"
+url = "^2.2"
+uuid = { version = "^1.0", features = ["serde"] }
+[dependencies.reqwest]
+version = "^0.11"
+features = ["json", "multipart"]
