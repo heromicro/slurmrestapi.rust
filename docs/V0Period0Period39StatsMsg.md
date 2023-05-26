@@ -1,0 +1,56 @@
+# V0Period0Period39StatsMsg
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**parts_packed** | Option<**i32**> |  | [optional]
+**req_time** | Option<**i64**> |  | [optional]
+**req_time_start** | Option<**i64**> |  | [optional]
+**server_thread_count** | Option<**i32**> |  | [optional]
+**agent_queue_size** | Option<**i32**> |  | [optional]
+**agent_count** | Option<**i32**> |  | [optional]
+**agent_thread_count** | Option<**i32**> |  | [optional]
+**dbd_agent_queue_size** | Option<**i32**> |  | [optional]
+**gettimeofday_latency** | Option<**i32**> |  | [optional]
+**schedule_cycle_max** | Option<**i32**> |  | [optional]
+**schedule_cycle_last** | Option<**i32**> |  | [optional]
+**schedule_cycle_total** | Option<**i32**> |  | [optional]
+**schedule_cycle_mean** | Option<**i64**> |  | [optional]
+**schedule_cycle_mean_depth** | Option<**i64**> |  | [optional]
+**schedule_cycle_per_minute** | Option<**i64**> |  | [optional]
+**schedule_queue_length** | Option<**i32**> |  | [optional]
+**jobs_submitted** | Option<**i32**> |  | [optional]
+**jobs_started** | Option<**i32**> |  | [optional]
+**jobs_completed** | Option<**i32**> |  | [optional]
+**jobs_canceled** | Option<**i32**> |  | [optional]
+**jobs_failed** | Option<**i32**> |  | [optional]
+**jobs_pending** | Option<**i32**> |  | [optional]
+**jobs_running** | Option<**i32**> |  | [optional]
+**job_states_ts** | Option<**i64**> |  | [optional]
+**bf_backfilled_jobs** | Option<**i32**> |  | [optional]
+**bf_last_backfilled_jobs** | Option<**i32**> |  | [optional]
+**bf_backfilled_het_jobs** | Option<**i32**> |  | [optional]
+**bf_cycle_counter** | Option<**i32**> |  | [optional]
+**bf_cycle_mean** | Option<**i64**> |  | [optional]
+**bf_depth_mean** | Option<**i64**> |  | [optional]
+**bf_depth_mean_try** | Option<**i64**> |  | [optional]
+**bf_cycle_sum** | Option<**i64**> |  | [optional]
+**bf_cycle_last** | Option<**i32**> |  | [optional]
+**bf_last_depth** | Option<**i32**> |  | [optional]
+**bf_last_depth_try** | Option<**i32**> |  | [optional]
+**bf_depth_sum** | Option<**i32**> |  | [optional]
+**bf_depth_try_sum** | Option<**i32**> |  | [optional]
+**bf_queue_len** | Option<**i32**> |  | [optional]
+**bf_queue_len_mean** | Option<**i64**> |  | [optional]
+**bf_queue_len_sum** | Option<**i32**> |  | [optional]
+**bf_table_size** | Option<**i32**> |  | [optional]
+**bf_table_size_mean** | Option<**i64**> |  | [optional]
+**bf_when_last_cycle** | Option<**i64**> |  | [optional]
+**bf_active** | Option<**bool**> |  | [optional]
+**rpcs_by_message_type** | Option<[**Vec<crate::models::V0039StatsMsgRpcsByTypeInner>**](v0_0_39_stats_msg_rpcs_by_type_inner.md)> | RPCs by message type | [optional]
+**rpcs_by_user** | Option<[**Vec<crate::models::V0039StatsMsgRpcsByUserInner>**](v0_0_39_stats_msg_rpcs_by_user_inner.md)> | RPCs by user | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
